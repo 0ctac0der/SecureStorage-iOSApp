@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AbstractorLocalVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AbstractorLocalVersionString[];
+FOUNDATION_EXPORT double Pods_SecureStorageVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SecureStorageVersionString[];
 

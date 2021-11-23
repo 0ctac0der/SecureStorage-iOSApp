@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0FF0E22AFC6C5FEF79D49C28FD4EAE98 /* RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E5018ED51913B2EA440EE821F2810E /* RNCryptor-dummy.m */; };
-		2D14690198A9AC35C1A1F1C7B7016A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2F3802955BC880DA8BC7E17E19B4B55F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		333999B13BCE92B316ADA3622E9E9439 /* RNCryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 799E797A23867F22A3D1BDF15CFF9650 /* RNCryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44F9EE673693A16271AFA009E2151BD3 /* Pods-AbstractorLocal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AA02C389875927FE9C8AB4A4361CA /* Pods-AbstractorLocal-dummy.m */; };
+		4A275101AE75375245A1346ECAA568C0 /* Pods-SecureStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D822255E86FEFC99B4122FE9242988D1 /* Pods-SecureStorage-dummy.m */; };
+		4B95DEE6DE6964042AA442B4AF1D51D6 /* Pods-SecureStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE48DD78C5460AEBB9BC6B58CF33879C /* Pods-SecureStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E59688C89C32497F41BE16B75061075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9998A5467D72B65B9B49CB6355F9E56B /* RNCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6EC114A39578F18C4BC4ECF28F2BF /* RNCryptor.swift */; };
-		B3EDE9A8E34F9E2204B937F083D0F718 /* Pods-AbstractorLocal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4E371EC665D90AB864E3BFB9455E83 /* Pods-AbstractorLocal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		89D2AD1D6E54C5F44F67F06BDCCD90A3 /* PBXContainerItemProxy */ = {
+		815BFC6AB453DC44E795EA7A36DF2A08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -28,26 +28,26 @@
 
 /* Begin PBXFileReference section */
 		0175A22FF546DEA7C81ADB08CD69A47A /* RNCryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RNCryptor.modulemap; sourceTree = "<group>"; };
-		0750D70F12DD2AA6C6896EB50E167481 /* Pods-AbstractorLocal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbstractorLocal-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FBFAEDBACBDF747A742A03F657323A3 /* Pods-SecureStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecureStorage.debug.xcconfig"; sourceTree = "<group>"; };
 		1876A9EE3145458FC9242D230646B967 /* RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-prefix.pch"; sourceTree = "<group>"; };
 		18C5C8FB225B22DAAAFE544F04F1054A /* RNCryptor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNCryptor.release.xcconfig; sourceTree = "<group>"; };
-		210B35F893FF67DC674350A1AF532D6A /* Pods-AbstractorLocal */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AbstractorLocal"; path = Pods_AbstractorLocal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5205BF6E941FFE3F0E06C3F0C620E655 /* Pods-SecureStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecureStorage.release.xcconfig"; sourceTree = "<group>"; };
 		534282BE88C9BF0BA2ED74BA7130AEA3 /* RNCryptor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNCryptor.debug.xcconfig; sourceTree = "<group>"; };
-		54A677CB99FA60C1398B691F2E250634 /* Pods-AbstractorLocal-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AbstractorLocal-frameworks.sh"; sourceTree = "<group>"; };
-		5A50A612892EF3B576918F984BEE8660 /* Pods-AbstractorLocal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AbstractorLocal-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73B6EC114A39578F18C4BC4ECF28F2BF /* RNCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RNCryptor.swift; path = Sources/RNCryptor/RNCryptor.swift; sourceTree = "<group>"; };
 		799E797A23867F22A3D1BDF15CFF9650 /* RNCryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-umbrella.h"; sourceTree = "<group>"; };
-		7E6AA02C389875927FE9C8AB4A4361CA /* Pods-AbstractorLocal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AbstractorLocal-dummy.m"; sourceTree = "<group>"; };
+		7EAE490E7395D31409E39890B64BD3B1 /* Pods-SecureStorage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecureStorage-Info.plist"; sourceTree = "<group>"; };
+		908F8CF5D231D02CFCAD71680E428FF3 /* Pods-SecureStorage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SecureStorage"; path = Pods_SecureStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A20A4B47C4D8DCF44EEAFD7C4BDE06 /* RNCryptor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RNCryptor-Info.plist"; sourceTree = "<group>"; };
-		9A4E371EC665D90AB864E3BFB9455E83 /* Pods-AbstractorLocal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AbstractorLocal-umbrella.h"; sourceTree = "<group>"; };
-		9D7065CBAE653F9FF0EDF0047F943744 /* Pods-AbstractorLocal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AbstractorLocal.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA6E19B655A7A7A728915056E18E6960 /* Pods-AbstractorLocal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbstractorLocal.debug.xcconfig"; sourceTree = "<group>"; };
-		C7BD6F1CBE821C66F2A813BACD79E7AB /* Pods-AbstractorLocal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AbstractorLocal-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE00970F56D08667FBBFE377D41C41BE /* Pods-SecureStorage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SecureStorage-frameworks.sh"; sourceTree = "<group>"; };
+		AFE85B101A49CAA71699BAD5A85BFD95 /* Pods-SecureStorage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecureStorage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B704A22C9AFF77034E9835056496AA81 /* Pods-SecureStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SecureStorage.modulemap"; sourceTree = "<group>"; };
+		D822255E86FEFC99B4122FE9242988D1 /* Pods-SecureStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SecureStorage-dummy.m"; sourceTree = "<group>"; };
 		E0E5018ED51913B2EA440EE821F2810E /* RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-dummy.m"; sourceTree = "<group>"; };
-		E5B196FB27D253BC06A983358108E067 /* Pods-AbstractorLocal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AbstractorLocal.release.xcconfig"; sourceTree = "<group>"; };
-		F6320389F628433B78C81FB217A0485D /* RNCryptor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNCryptor; path = RNCryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F074331E13DE5024F973D38C5EC75329 /* Pods-SecureStorage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecureStorage-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6320389F628433B78C81FB217A0485D /* RNCryptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNCryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE48DD78C5460AEBB9BC6B58CF33879C /* Pods-SecureStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SecureStorage-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +59,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		842645C1DD2EFB72FD7FF605E4BDDE56 /* Frameworks */ = {
+		F7F5722C804E9EE27D7EAEA48E0836DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D14690198A9AC35C1A1F1C7B7016A84 /* Foundation.framework in Frameworks */,
+				6E59688C89C32497F41BE16B75061075 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1999D57DCB99F5ECE7B49BA95C7029DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				908F8CF5D231D02CFCAD71680E428FF3 /* Pods-SecureStorage */,
+				F6320389F628433B78C81FB217A0485D /* RNCryptor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		25D1484E429523CA28F4C4B310DF32B6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,17 +93,15 @@
 				73B6EC114A39578F18C4BC4ECF28F2BF /* RNCryptor.swift */,
 				BF7E96187ACF3CB82D921B1B17C35CEA /* Support Files */,
 			);
-			name = RNCryptor;
 			path = RNCryptor;
 			sourceTree = "<group>";
 		};
-		4AD9A4002D62B107A33F1FC635687B55 /* Products */ = {
+		35D0B4E87AC353B4B82DF6611C47CD0B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				210B35F893FF67DC674350A1AF532D6A /* Pods-AbstractorLocal */,
-				F6320389F628433B78C81FB217A0485D /* RNCryptor */,
+				5C9DB1A3B2AE5D06CB25DF3D527B7334 /* Pods-SecureStorage */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -105,29 +112,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6FEE4E1D48F77897904B3EDB8113AD9E /* Targets Support Files */ = {
+		5C9DB1A3B2AE5D06CB25DF3D527B7334 /* Pods-SecureStorage */ = {
 			isa = PBXGroup;
 			children = (
-				9C7916991AB91415A49E993FEDB307B4 /* Pods-AbstractorLocal */,
+				B704A22C9AFF77034E9835056496AA81 /* Pods-SecureStorage.modulemap */,
+				AFE85B101A49CAA71699BAD5A85BFD95 /* Pods-SecureStorage-acknowledgements.markdown */,
+				F074331E13DE5024F973D38C5EC75329 /* Pods-SecureStorage-acknowledgements.plist */,
+				D822255E86FEFC99B4122FE9242988D1 /* Pods-SecureStorage-dummy.m */,
+				AE00970F56D08667FBBFE377D41C41BE /* Pods-SecureStorage-frameworks.sh */,
+				7EAE490E7395D31409E39890B64BD3B1 /* Pods-SecureStorage-Info.plist */,
+				FE48DD78C5460AEBB9BC6B58CF33879C /* Pods-SecureStorage-umbrella.h */,
+				0FBFAEDBACBDF747A742A03F657323A3 /* Pods-SecureStorage.debug.xcconfig */,
+				5205BF6E941FFE3F0E06C3F0C620E655 /* Pods-SecureStorage.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9C7916991AB91415A49E993FEDB307B4 /* Pods-AbstractorLocal */ = {
-			isa = PBXGroup;
-			children = (
-				9D7065CBAE653F9FF0EDF0047F943744 /* Pods-AbstractorLocal.modulemap */,
-				5A50A612892EF3B576918F984BEE8660 /* Pods-AbstractorLocal-acknowledgements.markdown */,
-				0750D70F12DD2AA6C6896EB50E167481 /* Pods-AbstractorLocal-acknowledgements.plist */,
-				7E6AA02C389875927FE9C8AB4A4361CA /* Pods-AbstractorLocal-dummy.m */,
-				54A677CB99FA60C1398B691F2E250634 /* Pods-AbstractorLocal-frameworks.sh */,
-				C7BD6F1CBE821C66F2A813BACD79E7AB /* Pods-AbstractorLocal-Info.plist */,
-				9A4E371EC665D90AB864E3BFB9455E83 /* Pods-AbstractorLocal-umbrella.h */,
-				BA6E19B655A7A7A728915056E18E6960 /* Pods-AbstractorLocal.debug.xcconfig */,
-				E5B196FB27D253BC06A983358108E067 /* Pods-AbstractorLocal.release.xcconfig */,
-			);
-			name = "Pods-AbstractorLocal";
-			path = "Target Support Files/Pods-AbstractorLocal";
+			name = "Pods-SecureStorage";
+			path = "Target Support Files/Pods-SecureStorage";
 			sourceTree = "<group>";
 		};
 		BF7E96187ACF3CB82D921B1B17C35CEA /* Support Files */ = {
@@ -151,8 +150,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				25D1484E429523CA28F4C4B310DF32B6 /* Pods */,
-				4AD9A4002D62B107A33F1FC635687B55 /* Products */,
-				6FEE4E1D48F77897904B3EDB8113AD9E /* Targets Support Files */,
+				1999D57DCB99F5ECE7B49BA95C7029DD /* Products */,
+				35D0B4E87AC353B4B82DF6611C47CD0B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,19 +166,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3837E2E0D53C15EC0FF9BDA5AB273192 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B95DEE6DE6964042AA442B4AF1D51D6 /* Pods-SecureStorage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7C897C414DBBDBD81CBD5742ED62333A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				333999B13BCE92B316ADA3622E9E9439 /* RNCryptor-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C65B34110112309A2A7DB408355D22B6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3EDE9A8E34F9E2204B937F083D0F718 /* Pods-AbstractorLocal-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,26 +200,26 @@
 			);
 			name = RNCryptor;
 			productName = RNCryptor;
-			productReference = F6320389F628433B78C81FB217A0485D /* RNCryptor */;
+			productReference = F6320389F628433B78C81FB217A0485D /* RNCryptor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F11E642DC331DA246EDD71680198A33C /* Pods-AbstractorLocal */ = {
+		F2D31637086F2BEA7A64D797D1952B1B /* Pods-SecureStorage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45143A8F87E2F1766F4D392AF6DA04FE /* Build configuration list for PBXNativeTarget "Pods-AbstractorLocal" */;
+			buildConfigurationList = E404B270D051D6F06F5D46586CA5C8A7 /* Build configuration list for PBXNativeTarget "Pods-SecureStorage" */;
 			buildPhases = (
-				C65B34110112309A2A7DB408355D22B6 /* Headers */,
-				818CBB7BDAB3FA23AEAB79A180D52A5A /* Sources */,
-				842645C1DD2EFB72FD7FF605E4BDDE56 /* Frameworks */,
-				0C54991A118B427902DD617F85F2656F /* Resources */,
+				3837E2E0D53C15EC0FF9BDA5AB273192 /* Headers */,
+				AC9BA1FF315A920CA18B1DBC293B3377 /* Sources */,
+				F7F5722C804E9EE27D7EAEA48E0836DF /* Frameworks */,
+				EA68BF61844C186B95E7FC37DF581FEF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5024EF48F9FEEB8174FD1E898C08E124 /* PBXTargetDependency */,
+				FA941E57C80F8AFB07E7C8FDFACFF434 /* PBXTargetDependency */,
 			);
-			name = "Pods-AbstractorLocal";
-			productName = Pods_AbstractorLocal;
-			productReference = 210B35F893FF67DC674350A1AF532D6A /* Pods-AbstractorLocal */;
+			name = "Pods-SecureStorage";
+			productName = Pods_SecureStorage;
+			productReference = 908F8CF5D231D02CFCAD71680E428FF3 /* Pods-SecureStorage */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +229,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1310;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -241,25 +240,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4AD9A4002D62B107A33F1FC635687B55 /* Products */;
+			productRefGroup = 1999D57DCB99F5ECE7B49BA95C7029DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F11E642DC331DA246EDD71680198A33C /* Pods-AbstractorLocal */,
+				F2D31637086F2BEA7A64D797D1952B1B /* Pods-SecureStorage */,
 				05CCA2AD142519DF6FED0979BACBC149 /* RNCryptor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0C54991A118B427902DD617F85F2656F /* Resources */ = {
+		5304EC13A5214D9C74280B25FCF63BD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5304EC13A5214D9C74280B25FCF63BD1 /* Resources */ = {
+		EA68BF61844C186B95E7FC37DF581FEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,29 +277,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		818CBB7BDAB3FA23AEAB79A180D52A5A /* Sources */ = {
+		AC9BA1FF315A920CA18B1DBC293B3377 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F9EE673693A16271AFA009E2151BD3 /* Pods-AbstractorLocal-dummy.m in Sources */,
+				4A275101AE75375245A1346ECAA568C0 /* Pods-SecureStorage-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5024EF48F9FEEB8174FD1E898C08E124 /* PBXTargetDependency */ = {
+		FA941E57C80F8AFB07E7C8FDFACFF434 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RNCryptor;
 			target = 05CCA2AD142519DF6FED0979BACBC149 /* RNCryptor */;
-			targetProxy = 89D2AD1D6E54C5F44F67F06BDCCD90A3 /* PBXContainerItemProxy */;
+			targetProxy = 815BFC6AB453DC44E795EA7A36DF2A08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		43CAC7BFFB6ECF8D050E8612D18CA97F /* Debug */ = {
+		4487557B3FFB71B6E5FDFE2764599017 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA6E19B655A7A7A728915056E18E6960 /* Pods-AbstractorLocal.debug.xcconfig */;
+			baseConfigurationReference = 5205BF6E941FFE3F0E06C3F0C620E655 /* Pods-SecureStorage.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -312,53 +311,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AbstractorLocal/Pods-AbstractorLocal-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SecureStorage/Pods-SecureStorage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AbstractorLocal/Pods-AbstractorLocal.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7B168C42A4E4323B38DD9E9492CD8AED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5B196FB27D253BC06A983358108E067 /* Pods-AbstractorLocal.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AbstractorLocal/Pods-AbstractorLocal-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AbstractorLocal/Pods-AbstractorLocal.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SecureStorage/Pods-SecureStorage.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -373,7 +335,44 @@
 			};
 			name = Release;
 		};
-		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+		84E388A0ACB338EA4E38E2AF431E09B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBFAEDBACBDF747A742A03F657323A3 /* Pods-SecureStorage.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SecureStorage/Pods-SecureStorage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecureStorage/Pods-SecureStorage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -439,7 +438,7 @@
 			};
 			name = Debug;
 		};
-		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -489,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,7 +515,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor/RNCryptor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RNCryptor/RNCryptor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,7 +550,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor/RNCryptor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RNCryptor/RNCryptor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,20 +581,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45143A8F87E2F1766F4D392AF6DA04FE /* Build configuration list for PBXNativeTarget "Pods-AbstractorLocal" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43CAC7BFFB6ECF8D050E8612D18CA97F /* Debug */,
-				7B168C42A4E4323B38DD9E9492CD8AED /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		E404B270D051D6F06F5D46586CA5C8A7 /* Build configuration list for PBXNativeTarget "Pods-SecureStorage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
-				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+				84E388A0ACB338EA4E38E2AF431E09B1 /* Debug */,
+				4487557B3FFB71B6E5FDFE2764599017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

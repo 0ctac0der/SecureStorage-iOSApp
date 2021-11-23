@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1240"
+   LastUpgradeVersion = "1310"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F11E642DC331DA246EDD71680198A33C"
-               BuildableName = "Pods_AbstractorLocal.framework"
-               BlueprintName = "Pods-AbstractorLocal"
+               BlueprintIdentifier = "F2D31637086F2BEA7A64D797D1952B1B"
+               BuildableName = "Pods_SecureStorage.framework"
+               BlueprintName = "Pods-SecureStorage"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

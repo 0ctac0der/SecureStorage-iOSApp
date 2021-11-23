@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D961CD2F274C0E5300AFA90A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD2E274C0E5300AFA90A /* AppDelegate.swift */; };
+		D961CD31274C0E5300AFA90A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD30274C0E5300AFA90A /* SceneDelegate.swift */; };
+		D961CD33274C0E5300AFA90A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD32274C0E5300AFA90A /* ViewController.swift */; };
+		D961CD36274C0E5300AFA90A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D961CD34274C0E5300AFA90A /* Main.storyboard */; };
+		D961CD39274C0E5300AFA90A /* SecureStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D961CD37274C0E5300AFA90A /* SecureStorage.xcdatamodeld */; };
+		D961CD3B274C0E5A00AFA90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D961CD3A274C0E5A00AFA90A /* Assets.xcassets */; };
+		D961CD3E274C0E5A00AFA90A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D961CD3C274C0E5A00AFA90A /* LaunchScreen.storyboard */; };
+		D961CD49274C0E5A00AFA90A /* SecureStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD48274C0E5A00AFA90A /* SecureStorageTests.swift */; };
+		D961CD53274C0E5A00AFA90A /* SecureStorageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD52274C0E5A00AFA90A /* SecureStorageUITests.swift */; };
+		D961CD55274C0E5A00AFA90A /* SecureStorageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD54274C0E5A00AFA90A /* SecureStorageUITestsLaunchTests.swift */; };
+		D961CD70274C0F7300AFA90A /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD61274C0F7200AFA90A /* ViewControllerExtension.swift */; };
+		D961CD71274C0F7300AFA90A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD62274C0F7200AFA90A /* SignUpViewController.swift */; };
+		D961CD72274C0F7300AFA90A /* ProUserPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD63274C0F7200AFA90A /* ProUserPaymentViewController.swift */; };
+		D961CD73274C0F7300AFA90A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD64274C0F7200AFA90A /* LoginViewController.swift */; };
+		D961CD74274C0F7300AFA90A /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD65274C0F7200AFA90A /* CardsViewController.swift */; };
+		D961CD75274C0F7300AFA90A /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD66274C0F7200AFA90A /* UIAlertControllerExtension.swift */; };
+		D961CD76274C0F7300AFA90A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD67274C0F7200AFA90A /* Extension.swift */; };
+		D961CD77274C0F7300AFA90A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD68274C0F7200AFA90A /* StringExtension.swift */; };
+		D961CD78274C0F7300AFA90A /* AfterLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD69274C0F7200AFA90A /* AfterLoginViewController.swift */; };
+		D961CD79274C0F7300AFA90A /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD6A274C0F7200AFA90A /* StoryboardExtension.swift */; };
+		D961CD7A274C0F7300AFA90A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD6B274C0F7300AFA90A /* DateExtension.swift */; };
+		D961CD7B274C0F7300AFA90A /* SecureStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D961CD6C274C0F7300AFA90A /* SecureStorage.xcdatamodeld */; };
+		D961CD7C274C0F7300AFA90A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD6E274C0F7300AFA90A /* Utility.swift */; };
+		D961CD7D274C0F7300AFA90A /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961CD6F274C0F7300AFA90A /* UsersViewController.swift */; };
+		F0E9138AA486318458CFFF3B /* Pods_SecureStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAF8A1BB6B5EB1F7E18690D /* Pods_SecureStorage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D961CD45274C0E5A00AFA90A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D961CD23274C0E5300AFA90A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D961CD2A274C0E5300AFA90A;
+			remoteInfo = SecureStorage;
+		};
+		D961CD4F274C0E5A00AFA90A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D961CD23274C0E5300AFA90A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D961CD2A274C0E5300AFA90A;
+			remoteInfo = SecureStorage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AAF8A1BB6B5EB1F7E18690D /* Pods_SecureStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D103980B52C29805CDB0AF /* Pods-SecureStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureStorage.debug.xcconfig"; path = "Target Support Files/Pods-SecureStorage/Pods-SecureStorage.debug.xcconfig"; sourceTree = "<group>"; };
+		9892CADA8C8652DB64A14405 /* Pods-SecureStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureStorage.release.xcconfig"; path = "Target Support Files/Pods-SecureStorage/Pods-SecureStorage.release.xcconfig"; sourceTree = "<group>"; };
+		D961CD2B274C0E5300AFA90A /* SecureStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D961CD2E274C0E5300AFA90A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D961CD30274C0E5300AFA90A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D961CD32274C0E5300AFA90A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D961CD35274C0E5300AFA90A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D961CD38274C0E5300AFA90A /* SecureStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecureStorage.xcdatamodel; sourceTree = "<group>"; };
+		D961CD3A274C0E5A00AFA90A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D961CD3D274C0E5A00AFA90A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D961CD3F274C0E5A00AFA90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D961CD44274C0E5A00AFA90A /* SecureStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D961CD48274C0E5A00AFA90A /* SecureStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStorageTests.swift; sourceTree = "<group>"; };
+		D961CD4E274C0E5A00AFA90A /* SecureStorageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureStorageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D961CD52274C0E5A00AFA90A /* SecureStorageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStorageUITests.swift; sourceTree = "<group>"; };
+		D961CD54274C0E5A00AFA90A /* SecureStorageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStorageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D961CD61274C0F7200AFA90A /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		D961CD62274C0F7200AFA90A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D961CD63274C0F7200AFA90A /* ProUserPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProUserPaymentViewController.swift; sourceTree = "<group>"; };
+		D961CD64274C0F7200AFA90A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D961CD65274C0F7200AFA90A /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		D961CD66274C0F7200AFA90A /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
+		D961CD67274C0F7200AFA90A /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D961CD68274C0F7200AFA90A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D961CD69274C0F7200AFA90A /* AfterLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfterLoginViewController.swift; sourceTree = "<group>"; };
+		D961CD6A274C0F7200AFA90A /* StoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardExtension.swift; sourceTree = "<group>"; };
+		D961CD6B274C0F7300AFA90A /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		D961CD6D274C0F7300AFA90A /* SecureStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecureStorage.xcdatamodel; sourceTree = "<group>"; };
+		D961CD6E274C0F7300AFA90A /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		D961CD6F274C0F7300AFA90A /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D961CD28274C0E5300AFA90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E9138AA486318458CFFF3B /* Pods_SecureStorage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D961CD41274C0E5A00AFA90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D961CD4B274C0E5A00AFA90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F434D885443BE8D3047754E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AAF8A1BB6B5EB1F7E18690D /* Pods_SecureStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B04F6D979F50E9FEDDF6ADF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82D103980B52C29805CDB0AF /* Pods-SecureStorage.debug.xcconfig */,
+				9892CADA8C8652DB64A14405 /* Pods-SecureStorage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D961CD22274C0E5300AFA90A = {
+			isa = PBXGroup;
+			children = (
+				D961CD2D274C0E5300AFA90A /* SecureStorage */,
+				D961CD47274C0E5A00AFA90A /* SecureStorageTests */,
+				D961CD51274C0E5A00AFA90A /* SecureStorageUITests */,
+				D961CD2C274C0E5300AFA90A /* Products */,
+				B04F6D979F50E9FEDDF6ADF0 /* Pods */,
+				5F434D885443BE8D3047754E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D961CD2C274C0E5300AFA90A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D961CD2B274C0E5300AFA90A /* SecureStorage.app */,
+				D961CD44274C0E5A00AFA90A /* SecureStorageTests.xctest */,
+				D961CD4E274C0E5A00AFA90A /* SecureStorageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D961CD2D274C0E5300AFA90A /* SecureStorage */ = {
+			isa = PBXGroup;
+			children = (
+				D961CD2E274C0E5300AFA90A /* AppDelegate.swift */,
+				D961CD30274C0E5300AFA90A /* SceneDelegate.swift */,
+				D961CD32274C0E5300AFA90A /* ViewController.swift */,
+				D961CD69274C0F7200AFA90A /* AfterLoginViewController.swift */,
+				D961CD65274C0F7200AFA90A /* CardsViewController.swift */,
+				D961CD6B274C0F7300AFA90A /* DateExtension.swift */,
+				D961CD67274C0F7200AFA90A /* Extension.swift */,
+				D961CD64274C0F7200AFA90A /* LoginViewController.swift */,
+				D961CD63274C0F7200AFA90A /* ProUserPaymentViewController.swift */,
+				D961CD6C274C0F7300AFA90A /* SecureStorage.xcdatamodeld */,
+				D961CD62274C0F7200AFA90A /* SignUpViewController.swift */,
+				D961CD6A274C0F7200AFA90A /* StoryboardExtension.swift */,
+				D961CD68274C0F7200AFA90A /* StringExtension.swift */,
+				D961CD66274C0F7200AFA90A /* UIAlertControllerExtension.swift */,
+				D961CD6F274C0F7300AFA90A /* UsersViewController.swift */,
+				D961CD6E274C0F7300AFA90A /* Utility.swift */,
+				D961CD61274C0F7200AFA90A /* ViewControllerExtension.swift */,
+				D961CD34274C0E5300AFA90A /* Main.storyboard */,
+				D961CD3A274C0E5A00AFA90A /* Assets.xcassets */,
+				D961CD3C274C0E5A00AFA90A /* LaunchScreen.storyboard */,
+				D961CD3F274C0E5A00AFA90A /* Info.plist */,
+				D961CD37274C0E5300AFA90A /* SecureStorage.xcdatamodeld */,
+			);
+			path = SecureStorage;
+			sourceTree = "<group>";
+		};
+		D961CD47274C0E5A00AFA90A /* SecureStorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				D961CD48274C0E5A00AFA90A /* SecureStorageTests.swift */,
+			);
+			path = SecureStorageTests;
+			sourceTree = "<group>";
+		};
+		D961CD51274C0E5A00AFA90A /* SecureStorageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D961CD52274C0E5A00AFA90A /* SecureStorageUITests.swift */,
+				D961CD54274C0E5A00AFA90A /* SecureStorageUITestsLaunchTests.swift */,
+			);
+			path = SecureStorageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D961CD2A274C0E5300AFA90A /* SecureStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D961CD58274C0E5A00AFA90A /* Build configuration list for PBXNativeTarget "SecureStorage" */;
+			buildPhases = (
+				9B4B6FC1132D2078BB855AD3 /* [CP] Check Pods Manifest.lock */,
+				D961CD27274C0E5300AFA90A /* Sources */,
+				D961CD28274C0E5300AFA90A /* Frameworks */,
+				D961CD29274C0E5300AFA90A /* Resources */,
+				3CDCE814BB49D55A50474497 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureStorage;
+			productName = SecureStorage;
+			productReference = D961CD2B274C0E5300AFA90A /* SecureStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D961CD43274C0E5A00AFA90A /* SecureStorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D961CD5B274C0E5A00AFA90A /* Build configuration list for PBXNativeTarget "SecureStorageTests" */;
+			buildPhases = (
+				D961CD40274C0E5A00AFA90A /* Sources */,
+				D961CD41274C0E5A00AFA90A /* Frameworks */,
+				D961CD42274C0E5A00AFA90A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D961CD46274C0E5A00AFA90A /* PBXTargetDependency */,
+			);
+			name = SecureStorageTests;
+			productName = SecureStorageTests;
+			productReference = D961CD44274C0E5A00AFA90A /* SecureStorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D961CD4D274C0E5A00AFA90A /* SecureStorageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D961CD5E274C0E5A00AFA90A /* Build configuration list for PBXNativeTarget "SecureStorageUITests" */;
+			buildPhases = (
+				D961CD4A274C0E5A00AFA90A /* Sources */,
+				D961CD4B274C0E5A00AFA90A /* Frameworks */,
+				D961CD4C274C0E5A00AFA90A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D961CD50274C0E5A00AFA90A /* PBXTargetDependency */,
+			);
+			name = SecureStorageUITests;
+			productName = SecureStorageUITests;
+			productReference = D961CD4E274C0E5A00AFA90A /* SecureStorageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D961CD23274C0E5300AFA90A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D961CD2A274C0E5300AFA90A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D961CD43274C0E5A00AFA90A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D961CD2A274C0E5300AFA90A;
+					};
+					D961CD4D274C0E5A00AFA90A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D961CD2A274C0E5300AFA90A;
+					};
+				};
+			};
+			buildConfigurationList = D961CD26274C0E5300AFA90A /* Build configuration list for PBXProject "SecureStorage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D961CD22274C0E5300AFA90A;
+			productRefGroup = D961CD2C274C0E5300AFA90A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D961CD2A274C0E5300AFA90A /* SecureStorage */,
+				D961CD43274C0E5A00AFA90A /* SecureStorageTests */,
+				D961CD4D274C0E5A00AFA90A /* SecureStorageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D961CD29274C0E5300AFA90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D961CD3E274C0E5A00AFA90A /* LaunchScreen.storyboard in Resources */,
+				D961CD3B274C0E5A00AFA90A /* Assets.xcassets in Resources */,
+				D961CD36274C0E5300AFA90A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D961CD42274C0E5A00AFA90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D961CD4C274C0E5A00AFA90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CDCE814BB49D55A50474497 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureStorage/Pods-SecureStorage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureStorage/Pods-SecureStorage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SecureStorage/Pods-SecureStorage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B4B6FC1132D2078BB855AD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureStorage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D961CD27274C0E5300AFA90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D961CD71274C0F7300AFA90A /* SignUpViewController.swift in Sources */,
+				D961CD7A274C0F7300AFA90A /* DateExtension.swift in Sources */,
+				D961CD78274C0F7300AFA90A /* AfterLoginViewController.swift in Sources */,
+				D961CD33274C0E5300AFA90A /* ViewController.swift in Sources */,
+				D961CD74274C0F7300AFA90A /* CardsViewController.swift in Sources */,
+				D961CD2F274C0E5300AFA90A /* AppDelegate.swift in Sources */,
+				D961CD76274C0F7300AFA90A /* Extension.swift in Sources */,
+				D961CD7D274C0F7300AFA90A /* UsersViewController.swift in Sources */,
+				D961CD75274C0F7300AFA90A /* UIAlertControllerExtension.swift in Sources */,
+				D961CD72274C0F7300AFA90A /* ProUserPaymentViewController.swift in Sources */,
+				D961CD73274C0F7300AFA90A /* LoginViewController.swift in Sources */,
+				D961CD77274C0F7300AFA90A /* StringExtension.swift in Sources */,
+				D961CD79274C0F7300AFA90A /* StoryboardExtension.swift in Sources */,
+				D961CD39274C0E5300AFA90A /* SecureStorage.xcdatamodeld in Sources */,
+				D961CD70274C0F7300AFA90A /* ViewControllerExtension.swift in Sources */,
+				D961CD7B274C0F7300AFA90A /* SecureStorage.xcdatamodeld in Sources */,
+				D961CD31274C0E5300AFA90A /* SceneDelegate.swift in Sources */,
+				D961CD7C274C0F7300AFA90A /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D961CD40274C0E5A00AFA90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D961CD49274C0E5A00AFA90A /* SecureStorageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D961CD4A274C0E5A00AFA90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D961CD53274C0E5A00AFA90A /* SecureStorageUITests.swift in Sources */,
+				D961CD55274C0E5A00AFA90A /* SecureStorageUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D961CD46274C0E5A00AFA90A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D961CD2A274C0E5300AFA90A /* SecureStorage */;
+			targetProxy = D961CD45274C0E5A00AFA90A /* PBXContainerItemProxy */;
+		};
+		D961CD50274C0E5A00AFA90A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D961CD2A274C0E5300AFA90A /* SecureStorage */;
+			targetProxy = D961CD4F274C0E5A00AFA90A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D961CD34274C0E5300AFA90A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D961CD35274C0E5300AFA90A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D961CD3C274C0E5A00AFA90A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D961CD3D274C0E5A00AFA90A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D961CD56274C0E5A00AFA90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D961CD57274C0E5A00AFA90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D961CD59274C0E5A00AFA90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D103980B52C29805CDB0AF /* Pods-SecureStorage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4457PW9889;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SecureStorage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SecureStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D961CD5A274C0E5A00AFA90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9892CADA8C8652DB64A14405 /* Pods-SecureStorage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4457PW9889;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SecureStorage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SecureStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D961CD5C274C0E5A00AFA90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4457PW9889;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SecureStorageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureStorage.app/SecureStorage";
+			};
+			name = Debug;
+		};
+		D961CD5D274C0E5A00AFA90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4457PW9889;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SecureStorageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureStorage.app/SecureStorage";
+			};
+			name = Release;
+		};
+		D961CD5F274C0E5A00AFA90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4457PW9889;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SecureStorageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecureStorage;
+			};
+			name = Debug;
+		};
+		D961CD60274C0E5A00AFA90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4457PW9889;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SecureStorageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecureStorage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D961CD26274C0E5300AFA90A /* Build configuration list for PBXProject "SecureStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D961CD56274C0E5A00AFA90A /* Debug */,
+				D961CD57274C0E5A00AFA90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D961CD58274C0E5A00AFA90A /* Build configuration list for PBXNativeTarget "SecureStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D961CD59274C0E5A00AFA90A /* Debug */,
+				D961CD5A274C0E5A00AFA90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D961CD5B274C0E5A00AFA90A /* Build configuration list for PBXNativeTarget "SecureStorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D961CD5C274C0E5A00AFA90A /* Debug */,
+				D961CD5D274C0E5A00AFA90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D961CD5E274C0E5A00AFA90A /* Build configuration list for PBXNativeTarget "SecureStorageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D961CD5F274C0E5A00AFA90A /* Debug */,
+				D961CD60274C0E5A00AFA90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D961CD37274C0E5300AFA90A /* SecureStorage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D961CD38274C0E5300AFA90A /* SecureStorage.xcdatamodel */,
+			);
+			currentVersion = D961CD38274C0E5300AFA90A /* SecureStorage.xcdatamodel */;
+			path = SecureStorage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		D961CD6C274C0F7300AFA90A /* SecureStorage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D961CD6D274C0F7300AFA90A /* SecureStorage.xcdatamodel */,
+			);
+			currentVersion = D961CD6D274C0F7300AFA90A /* SecureStorage.xcdatamodel */;
+			path = SecureStorage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D961CD23274C0E5300AFA90A /* Project object */;
+}
