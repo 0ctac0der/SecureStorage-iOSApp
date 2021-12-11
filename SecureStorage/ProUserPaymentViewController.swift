@@ -1,6 +1,6 @@
 //
 //  ProUserPaymentViewController.swift
-//  Abstractors
+//  Secure Storage
 //
 //  Created by ENCIPHERS.
 //  Copyright © 2019 . All rights reserved.
@@ -136,12 +136,15 @@ class ProUserPaymentViewController: UIViewController {
         self.btnPayment.layer.cornerRadius = 5.0
         self.btnPayment.clipsToBounds = true
         
-        self.txtFCardNmber.text = self.existingCard?["cardnumber"]
-        self.txtFNameOnCard.text = self.existingCard?["cardname"]
-        self.txtFCVV.text = self.existingCard?["cardcvv"]
-        self.txtFExpiry.text = self.existingCard?["cardexpiry"]
-        
-        
+        if self.existingCard != nil {
+            self.btnPayment.setTitle("Edit Card Details", for: .normal)
+            self.txtFCardNmber.text = self.existingCard?["cardnumber"]
+            self.txtFNameOnCard.text = self.existingCard?["cardname"]
+            self.txtFCVV.text = self.existingCard?["cardcvv"]
+            self.txtFExpiry.text = self.existingCard?["cardexpiry"]
+        } else {
+            self.btnPayment.setTitle("Add Card Details", for: .normal)
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {

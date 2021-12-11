@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kv7-44-u60">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -12,7 +11,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="SignUpViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="SignUpViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="SignUpViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,7 +124,7 @@
         <!--Login View Controller-->
         <scene sceneID="Oi4-gY-YHv">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Gn4-Js-Lw8" customClass="LoginViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Gn4-Js-Lw8" customClass="LoginViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dA6-rI-VFF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,7 +242,7 @@
         <!--Forgot Password View Controller-->
         <scene sceneID="ovA-Sr-O18">
             <objects>
-                <viewController storyboardIdentifier="ForgotPasswordViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9fB-XX-Ycr" customClass="ForgotPasswordViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ForgotPasswordViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9fB-XX-Ycr" customClass="ForgotPasswordViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FUn-BR-L9U">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -325,7 +324,7 @@
         <!--Account View Controller-->
         <scene sceneID="E0v-Jg-XMR">
             <objects>
-                <viewController storyboardIdentifier="AccountViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3PT-PQ-Fbj" customClass="AccountViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AccountViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3PT-PQ-Fbj" customClass="AccountViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cm3-Ri-evS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -504,7 +503,7 @@
         <!--Feeds View Controller-->
         <scene sceneID="1Gt-9m-0Ag">
             <objects>
-                <viewController storyboardIdentifier="FeedsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hTi-xm-prj" customClass="FeedsViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeedsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hTi-xm-prj" customClass="FeedsViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nlh-vg-RpD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -521,7 +520,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="FeedDetailCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedDetailCell" rowHeight="396" id="DaL-XE-O5T" customClass="FeedDetailCell" customModule="AbstractorLocal" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="FeedDetailCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedDetailCell" rowHeight="396" id="DaL-XE-O5T" customClass="FeedDetailCell" customModule="SecureStorage" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="396"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DaL-XE-O5T" id="jee-6h-rbD">
@@ -651,7 +650,7 @@
         <!--Post View Controller-->
         <scene sceneID="HAZ-n8-I0F">
             <objects>
-                <viewController storyboardIdentifier="PostViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oCr-zj-UTW" customClass="PostViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PostViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oCr-zj-UTW" customClass="PostViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ylM-Vi-on7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -749,7 +748,7 @@
         <!--Pro User Payment View Controller-->
         <scene sceneID="agj-5v-dnc">
             <objects>
-                <viewController storyboardIdentifier="ProUserPaymentViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UXq-sa-mtb" customClass="ProUserPaymentViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProUserPaymentViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UXq-sa-mtb" customClass="ProUserPaymentViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cw8-CZ-1zi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -868,7 +867,7 @@
         <!--Pro User Account View Controller-->
         <scene sceneID="min-Lf-sqj">
             <objects>
-                <viewController storyboardIdentifier="ProUserAccountViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zAi-09-xWs" customClass="ProUserAccountViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProUserAccountViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zAi-09-xWs" customClass="ProUserAccountViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8ey-vo-lTC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -879,7 +878,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the Pro section of Abstractors blog" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqh-b5-6fa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the Pro section of Secure Storage blog" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqh-b5-6fa">
                                 <rect key="frame" x="16" y="68.666666666666671" width="383" height="14.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1033,7 +1032,7 @@
         <!--Web View Controller-->
         <scene sceneID="L9i-6I-OuX">
             <objects>
-                <viewController storyboardIdentifier="WebViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ybT-fM-1kj" customClass="WebViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WebViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ybT-fM-1kj" customClass="WebViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7za-qN-Juh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1048,7 +1047,7 @@
         <!--After Login View Controller-->
         <scene sceneID="XY8-Ji-4Fu">
             <objects>
-                <viewController storyboardIdentifier="AfterLoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sMU-bB-f94" customClass="AfterLoginViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AfterLoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sMU-bB-f94" customClass="AfterLoginViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CF9-v6-6Pv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1124,7 +1123,7 @@
         <!--Abs Constants View Controller-->
         <scene sceneID="tkP-dW-E0A">
             <objects>
-                <viewController storyboardIdentifier="AbsConstantsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="J9y-8i-JIM" customClass="AbsConstantsViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AbsConstantsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="J9y-8i-JIM" customClass="AbsConstantsViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zpn-wv-kSa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1133,7 +1132,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="666"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="AbsConstantsCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AbsConstantsCell" id="eua-nx-Tmp" customClass="AbsConstantsCell" customModule="AbstractorLocal" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="AbsConstantsCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AbsConstantsCell" id="eua-nx-Tmp" customClass="AbsConstantsCell" customModule="SecureStorage" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eua-nx-Tmp" id="a6z-lN-YnH">
@@ -1211,7 +1210,7 @@
         <!--Loading View Controller-->
         <scene sceneID="8O0-ES-7Cg">
             <objects>
-                <viewController storyboardIdentifier="LoadingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0Dp-KT-jqm" customClass="LoadingViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoadingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0Dp-KT-jqm" customClass="LoadingViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Md5-1m-Jfk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1252,7 +1251,7 @@
         <!--Cards View Controller-->
         <scene sceneID="H0p-On-eg0">
             <objects>
-                <viewController storyboardIdentifier="CardsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5Td-uq-P98" customClass="CardsViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CardsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5Td-uq-P98" customClass="CardsViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j97-NZ-Yc4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1261,7 +1260,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CardsDetailCell" rowHeight="140" id="VO5-lE-om0" customClass="CardsDetailCell" customModule="AbstractorLocal" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CardsDetailCell" rowHeight="140" id="VO5-lE-om0" customClass="CardsDetailCell" customModule="SecureStorage" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VO5-lE-om0" id="bpo-su-knw">
@@ -1407,7 +1406,7 @@
         <!--Users View Controller-->
         <scene sceneID="eii-9V-8Cr">
             <objects>
-                <viewController storyboardIdentifier="UsersViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T2X-Kh-8t6" customClass="UsersViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UsersViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T2X-Kh-8t6" customClass="UsersViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xds-eO-pq0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1416,7 +1415,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="702.66666666666663"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="UserDetailCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserDetailCell" id="FQF-tf-TJQ" customClass="UserDetailCell" customModule="AbstractorLocal" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="UserDetailCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserDetailCell" id="FQF-tf-TJQ" customClass="UserDetailCell" customModule="SecureStorage" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="105.66666412353516"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FQF-tf-TJQ" id="WxN-2B-31v">
@@ -1576,7 +1575,7 @@
         <!--Notifications View Controller-->
         <scene sceneID="8Jk-zl-8vZ">
             <objects>
-                <viewController storyboardIdentifier="NotificationsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gfl-GH-wj9" customClass="NotificationsViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NotificationsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gfl-GH-wj9" customClass="NotificationsViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gee-go-e3x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1585,7 +1584,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="NotificationsCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotificationsCell" rowHeight="152" id="QGT-5P-g9d" customClass="NotificationsCell" customModule="AbstractorLocal" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="NotificationsCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotificationsCell" rowHeight="152" id="QGT-5P-g9d" customClass="NotificationsCell" customModule="SecureStorage" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QGT-5P-g9d" id="Zlc-1d-4Ce">
@@ -1676,7 +1675,7 @@
         <!--Post Detail View Controller-->
         <scene sceneID="o0N-63-BbD">
             <objects>
-                <viewController storyboardIdentifier="PostDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PdX-kE-Pxq" customClass="PostDetailViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PostDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PdX-kE-Pxq" customClass="PostDetailViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4jI-OC-Uca">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1685,7 +1684,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="PostDetailCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostDetailCell" rowHeight="396" id="PhR-GX-m1I" customClass="PostDetailCell" customModule="AbstractorLocal" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="PostDetailCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostDetailCell" rowHeight="396" id="PhR-GX-m1I" customClass="PostDetailCell" customModule="SecureStorage" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="396"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PhR-GX-m1I" id="Bxa-mx-uq2">
@@ -1836,7 +1835,7 @@
         <!--Local Login View Controller-->
         <scene sceneID="RlR-Ky-2Qg">
             <objects>
-                <viewController storyboardIdentifier="LocalLoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2eO-DA-ajZ" customClass="LocalLoginViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LocalLoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2eO-DA-ajZ" customClass="LocalLoginViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A6T-U0-Mg4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1927,7 +1926,7 @@
         <!--Select OptionVC-->
         <scene sceneID="rRG-F2-bje">
             <objects>
-                <viewController storyboardIdentifier="SelectOptionVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mZp-Zl-lEG" customClass="SelectOptionVC" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SelectOptionVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mZp-Zl-lEG" customClass="SelectOptionVC" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f8s-P8-sfb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1978,7 +1977,7 @@
         <!--View Controller-->
         <scene sceneID="Vbd-qJ-Cab">
             <objects>
-                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Kv7-44-u60" customClass="ViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Kv7-44-u60" customClass="ViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YeK-cl-UwI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1993,7 +1992,7 @@
         <!--Side Menu View Controller-->
         <scene sceneID="nIy-F5-uqo">
             <objects>
-                <viewController storyboardIdentifier="SideMenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BQx-lO-t2Y" customClass="SideMenuViewController" customModule="AbstractorLocal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SideMenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BQx-lO-t2Y" customClass="SideMenuViewController" customModule="SecureStorage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sbh-2z-7AP">
                         <rect key="frame" x="0.0" y="0.0" width="260" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
