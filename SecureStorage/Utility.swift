@@ -1,9 +1,6 @@
 //
 //  Utility.swift
-//  AbstractorLocal
-//
-//  Created by Mohammad Haroon on 14/11/21.
-//
+
 
 import Foundation
 import CryptoKit

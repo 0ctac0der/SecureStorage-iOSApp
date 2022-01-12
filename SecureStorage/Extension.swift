@@ -1,10 +1,7 @@
 //
 //  NSObjectExtension.swift
 //  Secure Storage
-//
-//  Created by ENCIPHERS.
-//  Copyright © 2019 . All rights reserved.
-//
+
 
 import Foundation
 import CryptoKit

@@ -1,10 +1,7 @@
 //
 //  LoginViewViewController.swift
 //  Secure Storage
-//
-//  Created by ENCIPHERS on 04/03/19.
-//  Copyright © 2019 . All rights reserved.
-//
+
 
 import UIKit
 

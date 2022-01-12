@@ -1,9 +1,6 @@
 //
 //  ViewController.swift
-//  AbstractorLocal
-//
-//  Created by Mohammad Haroon on 13/11/21.
-//
+
 
 import UIKit
 

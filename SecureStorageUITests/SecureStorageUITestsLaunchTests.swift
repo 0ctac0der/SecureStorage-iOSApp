@@ -1,9 +1,6 @@
 //
 //  SecureStorageUITestsLaunchTests.swift
-//  SecureStorageUITests
-//
-//  Created by Mohammad Haroon on 22/11/21.
-//
+
 
 import XCTest
 

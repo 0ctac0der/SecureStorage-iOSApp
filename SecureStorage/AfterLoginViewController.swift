@@ -1,9 +1,6 @@
 //
 //  AfterLoginViewController.swift
-//  AbstractorLocal
-//
-//  Created by Mohammad Haroon on 14/11/21.
-//
+
 
 import UIKit
 

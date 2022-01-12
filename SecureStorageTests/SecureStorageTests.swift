@@ -1,9 +1,6 @@
 //
 //  SecureStorageTests.swift
-//  SecureStorageTests
-//
-//  Created by Mohammad Haroon on 22/11/21.
-//
+
 
 import XCTest
 @testable import SecureStorage
