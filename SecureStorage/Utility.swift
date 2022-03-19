@@ -7,7 +7,7 @@ import CryptoKit
 
 class Utility {
     
-    static let AppEKeyString = "2D4A614E635266556A586E3272357538782F413F4428472B4B6250655367566B"
+    static let AppEKeyString = "8873456HFEIFHFIUDFHT38256239R9F8SDCFUWEYGR87465823568EWIFH89T5"
     
     static let AppEKey = SymmetricKey(data: Data(hexString:Utility.AppEKeyString)!)
     
